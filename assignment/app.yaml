@@ -1,8 +1,8 @@
 runtime: python310
 
 env_variables:
-  CLOUD_SQL_USERNAME: zhenya
-  CLOUD_SQL_PASSWORD: 1988
+  CLOUD_SQL_USERNAME: ****
+  CLOUD_SQL_PASSWORD: ****
   CLOUD_SQL_DATABASE_NAME: long
   CLOUD_SQL_CONNECTION_NAME: feisty-ceiling-359617:us-central1:db
  
