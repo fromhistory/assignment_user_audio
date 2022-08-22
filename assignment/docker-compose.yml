@@ -1,0 +1,7 @@
+version: '3'
+
+services: 
+  assignment:
+    build: .
+    ports: 
+      - "8080:8080"
