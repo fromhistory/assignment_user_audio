@@ -6,7 +6,7 @@
 # INSTALLATION 
 
 ## You may install this program in two ways: 
-1. You may clone it from the git repository.
+1. You may clone it from the git repository: `https://github.com/fromhistory/assignment_user_audio.git`
 2. You may pull the docker image from the Dockerhub:
 - Dockerhub [link](https://hub.docker.com/r/baranovych/assignment_assignment)
 - Pull request `docker pull baranovych/assignment_assignment`
