@@ -132,4 +132,32 @@ curl --location --request GET 'https://feisty-ceiling-359617.uc.r.appspot.com/au
 ```
 
 
+## TABLE SCHEMAS
+
+```
+create table users(
+id INT NOT NULL AUTO_INCREMENT,
+name VARCHAR(255),
+email VARCHAR(255),
+address VARCHAR(255),
+image BLOB,
+PRIMARY KEY(id)
+);
+```
+
+```
+create table audio(
+
+session_id INT NOT NULL AUTO_INCREMENT,
+ticks VARCHAR(255),
+step_count INT,
+selected_tick INT,
+user_id INT NOT NULL,
+PRIMARY KEY(session_id),
+FOREIGN KEY (user_id)
+	REFERENCES users(id)
+);
+```
+
+
 
